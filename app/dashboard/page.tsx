@@ -36,7 +36,7 @@ export default function Profile() {
   ];
   const [selectedRowKeys, setSelectedRowKeys] = useState([]);
 
-  const handleRowSelectionChange = (selectedRowKeys) => {
+  const handleRowSelectionChange = (selectedRowKeys: any) => {
     console.log(selectedRowKeys);
 
     setSelectedRowKeys(selectedRowKeys);
